@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace DigitalCoreHub\LaravelIpRestriction\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelIpRestrictionCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-ip-restriction';
 
     public $description = 'My command';
 
