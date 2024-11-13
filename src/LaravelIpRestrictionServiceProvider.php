@@ -5,6 +5,7 @@ namespace DigitalCoreHub\LaravelIpRestriction;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use DigitalCoreHub\LaravelIpRestriction\Commands\LaravelIpRestrictionCommand;
+use DigitalCoreHub\LaravelIpRestriction\Middleware\RestrictToSpecificIp;
 
 class LaravelIpRestrictionServiceProvider extends PackageServiceProvider
 {
