@@ -12,7 +12,7 @@ composer require digitalcorehub/laravel-ip-restriction
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="ip-restriction-config"
+php artisan vendor:publish --tag=ip-restriction-config
 ```
 
 This is the contents of the published config file:
