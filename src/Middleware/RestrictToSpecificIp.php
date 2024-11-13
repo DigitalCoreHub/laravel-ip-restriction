@@ -10,7 +10,7 @@ class RestrictToSpecificIp
 {
     public function handle(Request $request, Closure $next)
     {
-        $allowedIps = config('iprestriction.allowed_ips');
+        $allowedIps = config('iprestriction.allowed_ips', []);
 
         if (!in_array($request->ip(), $allowedIps)) {
             abort(Response::HTTP_FORBIDDEN, 'Erişim izniniz bulunmamaktadır.');
