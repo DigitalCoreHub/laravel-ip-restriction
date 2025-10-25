@@ -26,7 +26,7 @@
 ## 📋 Gereksinimler / Requirements
 
 - PHP 8.2 veya üzeri / PHP 8.2 or higher
-- Laravel 10.0 veya üzeri / Laravel 10.0 or higher
+- Laravel 10.0, 11.0 veya 12.0 / Laravel 10.0, 11.0 or 12.0
 - Composer
 
 ## 🚀 Kurulum / Installation
